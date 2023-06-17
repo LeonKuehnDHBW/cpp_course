@@ -67,6 +67,12 @@ build CMakeFiles/cpp_course.dir/1_Grundlage/fibonacci.cpp.obj: CXX_COMPILER__cpp
   OBJECT_DIR = CMakeFiles\cpp_course.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp_course.dir\1_Grundlage
 
+build CMakeFiles/cpp_course.dir/2_OOP/2_Place/Place.cpp.obj: CXX_COMPILER__cpp_course_Debug C$:/Users/geilo/OneDrive/Dokumente/DHBW/2.$ Semester/cpp-course/2_OOP/2_Place/Place.cpp || cmake_object_order_depends_target_cpp_course
+  DEP_FILE = CMakeFiles\cpp_course.dir\2_OOP\2_Place\Place.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
+  OBJECT_DIR = CMakeFiles\cpp_course.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp_course.dir\2_OOP\2_Place
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_course
@@ -75,7 +81,7 @@ build CMakeFiles/cpp_course.dir/1_Grundlage/fibonacci.cpp.obj: CXX_COMPILER__cpp
 #############################################
 # Link the executable cpp_course.exe
 
-build cpp_course.exe: CXX_EXECUTABLE_LINKER__cpp_course_Debug CMakeFiles/cpp_course.dir/2_OOP/1_Car/Car.cpp.obj CMakeFiles/cpp_course.dir/2_OOP/1_Car/main.cpp.obj CMakeFiles/cpp_course.dir/1_Grundlage/fibonacci.cpp.obj
+build cpp_course.exe: CXX_EXECUTABLE_LINKER__cpp_course_Debug CMakeFiles/cpp_course.dir/2_OOP/1_Car/Car.cpp.obj CMakeFiles/cpp_course.dir/2_OOP/1_Car/main.cpp.obj CMakeFiles/cpp_course.dir/1_Grundlage/fibonacci.cpp.obj CMakeFiles/cpp_course.dir/2_OOP/2_Place/Place.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_course.dir
