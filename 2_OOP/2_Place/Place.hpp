@@ -17,7 +17,7 @@ public:
     , m_y(y)
     {}
 
-    void visit(){}
+    void visit();
 
 protected:
     string m_name;
