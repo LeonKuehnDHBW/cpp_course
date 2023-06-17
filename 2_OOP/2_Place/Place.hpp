@@ -18,11 +18,14 @@ public:
     {}
 
     void visit(){}
+    void setX(double X);
+    void setY(double Y);
 
 protected:
     string m_name;
     double m_x;
     double m_y;
+
 };
 
 
