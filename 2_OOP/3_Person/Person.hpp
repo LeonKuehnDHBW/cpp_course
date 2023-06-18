@@ -14,6 +14,8 @@ public:
     ,m_address(address)
     {}
 
+    string getName();
+
 protected:
     string m_name;
     string m_email;

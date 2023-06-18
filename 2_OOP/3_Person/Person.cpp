@@ -3,3 +3,7 @@
 //
 
 #include "Person.hpp"
+
+string Person::getName() {
+    return m_name;
+}
