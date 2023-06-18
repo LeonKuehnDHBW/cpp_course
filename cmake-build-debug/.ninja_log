@@ -9,3 +9,10 @@
 9	1382	7087927008101443	CMakeFiles/cpp_course.dir/2_OOP/2_Place/main.cpp.obj	b17bb775ce84aa7a
 5	754	7087956382737803	CMakeFiles/cpp_course.dir/2_OOP/2_Place/Sights.cpp.obj	7ff48fedf610154f
 9	889	7087956384051564	CMakeFiles/cpp_course.dir/2_OOP/2_Place/Toilets.cpp.obj	26ea44c9aaea5ac2
+6	1250	7088002780635832	CMakeFiles/cpp_course.dir/2_OOP/3_Person/Professor.cpp.obj	e039057f2f082056
+41	1264	7088002780739930	CMakeFiles/cpp_course.dir/2_OOP/3_Person/Student.cpp.obj	7277e3b014c84719
+34	1278	7088002780966317	CMakeFiles/cpp_course.dir/2_OOP/3_Person/MailHandler.cpp.obj	60dd97dc4f2cb6b
+27	1342	7088002781611979	CMakeFiles/cpp_course.dir/2_OOP/3_Person/main.cpp.obj	456b199749937e19
+20	1353	7088002781685241	CMakeFiles/cpp_course.dir/2_OOP/3_Person/Person.cpp.obj	888ca880c42d4dac
+12	1385	7088002782047924	CMakeFiles/cpp_course.dir/2_OOP/2_Place/main.cpp.obj	b17bb775ce84aa7a
+1385	1669	7088002784801192	cpp_course.exe	46a68f48b58c3a95
