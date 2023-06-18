@@ -9,7 +9,7 @@
 
 
 
-int main()
+int main2_2()
 {
     vector<Place*> myPlaces; //Warum Pointer? Er ermöglicht es auf Dtaen der Abgeleiteten Klasse zuzugreifen aber warum?
     myPlaces.push_back(new Place("Paris", 6, 5));
