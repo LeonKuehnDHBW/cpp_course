@@ -5,6 +5,11 @@
 #include "Place.hpp"
 using namespace std;
 
-void Place::visit() {
-    cout << "" << m_name << " (" << m_x << ", " << m_y << ")" << endl;
+void Place::visit()
+{
+    cout << "" << m_name;
+    cout << " (" << m_x;
+    cout << ", " << m_y;
+    cout << ")" << endl;
 }
+

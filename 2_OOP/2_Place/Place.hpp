@@ -17,13 +17,16 @@ public:
     , m_y(y)
     {}
 
-    void visit();
+
+
+    virtual ~Place(){};
+
+    virtual void visit();
 
 protected:
     string m_name;
     int m_x;
     int m_y;
-
 };
 
 
