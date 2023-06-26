@@ -5,7 +5,7 @@
 #include "Place.hpp"
 using namespace std;
 
-void Place::visit()
+const void Place::visit()
 {
     cout << "" << m_name;
     cout << " (" << m_x;

@@ -6,7 +6,7 @@
 #include "Toilets.hpp"
 
 
-void Toilets::visit() {
+const void Toilets::visit() {
     Place::visit();
     cout << "Here it smells like: " << m_smell << endl;
 }

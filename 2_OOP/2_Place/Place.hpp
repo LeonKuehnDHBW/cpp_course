@@ -11,22 +11,19 @@ using namespace std;
 
 class Place {
 public:
-    Place(string name, int x, int y)
+    Place(const string name, const int x,const int y)
     : m_name(name)
     , m_x(x)
     , m_y(y)
     {}
 
-
-
     virtual ~Place(){};
-
-    virtual void visit();
+    const virtual void visit();
 
 protected:
-    string m_name;
-    int m_x;
-    int m_y;
+    const string m_name;
+    const int m_x;
+    const int m_y;
 };
 
 

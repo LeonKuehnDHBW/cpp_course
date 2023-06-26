@@ -4,7 +4,7 @@
 #include <iostream>
 #include "Sights.hpp"
 
-void Sights::visit()
+const void Sights::visit()
 {
     Place::visit();
     cout << "Here you can see: " << m_view << endl;

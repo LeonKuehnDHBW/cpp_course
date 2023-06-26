@@ -11,10 +11,14 @@
 
 int main2_2()
 {
-    vector<Place*> myPlaces; //Warum Pointer? Er ermöglicht es auf Dtaen der Abgeleiteten Klasse zuzugreifen aber warum?
-    myPlaces.push_back(new Place("Paris", 6, 5));
-    myPlaces.push_back(new Sights("Eifelturm", "ALl of Paris", 5, 5));
-    myPlaces.push_back(new Toilets("The devils toilet", "Sulfur", 2, 2));
+    auto paris{Place("Paris", 4, 5)};
+    auto eifelturm{Sights("Eifelturm", "All of Paris", 7, 8)};
+    auto devilsToilet {Toilets("Devils Toilet", "Sulfur", 9, 2)};
+
+    vector<Place*> myPlaces;
+    myPlaces.push_back(&paris);
+    myPlaces.push_back(&eifelturm);
+    myPlaces.push_back(&devilsToilet);
 
 
     for(Place* place: myPlaces){

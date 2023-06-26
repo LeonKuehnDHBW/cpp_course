@@ -10,17 +10,17 @@ using namespace std;
 
 class Sights : public Place{
 public:
-    Sights(string name, string view, int x, int y)
+    Sights(string name, const string view, int x, int y)
     : Place(name, x, y)
     , m_view(view)
     {}
 
     ~Sights(){};
 
-    void visit() override;
+    const void visit() override;
 
 private:
-    string m_view;
+    const string m_view;
 };
 
 

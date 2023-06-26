@@ -6,7 +6,7 @@
 #include "Professor.hpp"
 #include "MailHandler.hpp"
 
-int main()
+int main2_3()
 {
     Professor prof1("Herr Drüppel", "drüppel@gmail.com", "Suttgart", "DE95 82972923729");
     MailHandler mail;

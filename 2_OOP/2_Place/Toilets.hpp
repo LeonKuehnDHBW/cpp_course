@@ -10,17 +10,17 @@ using namespace std;
 
 class Toilets : public Place {
 public:
-    Toilets(string name, string smell, int x, int y)
+    Toilets(string name, const string smell, int x, int y)
     : Place(name, x, y)
     ,m_smell(smell)
     {}
 
     ~Toilets(){};
 
-    void visit() override;
+    const void visit() override;
 
 private:
-    string m_smell;
+    const string m_smell;
 };
 
 
